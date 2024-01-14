@@ -9,7 +9,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.use(cors({
-    origin: 'https://3gtoken.com' // Your frontend domain
+    origin: 'https://solanafoundation.info' // Your frontend domain
 }));
 
 // MongoDB connection
